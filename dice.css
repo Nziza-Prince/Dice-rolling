@@ -6,10 +6,10 @@ body {
     font-weight: bold;
     background-color: rgb(255, 255, 255);
 }
-
 .game {
     display: flex;
-
+    justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -88,4 +88,7 @@ img {
 
 #rollResults {
     margin: 5px 0 5px;
+}
+.game{
+
 }
