@@ -6,15 +6,16 @@ body {
 }
 .game {
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
+margin-top: 50px;
+gap: 10px;
 }
 .container1{
     border: 2px solid aqua;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
-    margin-left: 10%;
     box-shadow: 2px 2px aqua;
 }
 button{
@@ -44,7 +45,6 @@ input[type='number']{
     padding: 50px;
     border-radius: 10px;
     text-align: center;
-    margin-right: 10%;
     box-shadow: 2px 2px rgb(255, 64, 0);
 }
 img{
@@ -57,4 +57,9 @@ img{
     text-align: center;
     margin-right: 10%;
     box-shadow: 2px 2px rgb(255, 64, 0);
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

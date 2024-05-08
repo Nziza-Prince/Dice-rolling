@@ -30,7 +30,7 @@ let rolledNumber = document.getElementById("diceNumber")
   else{
     alert("the number you entered was invalid Try following the rules player one")
   }
-  rolling2()
+
   playTracker++
   
 }
@@ -59,20 +59,20 @@ function rolling2() {
     
     }
     else{
-      // alert("the number you entered was invalid try following the rules player two")
+      alert("the number you entered was invalid try following the rules player two")
     }
     setTimeout( ()=>{
-      if(playTracker===10)
+      if(playTracker===2)
     if(totalResults > totalResults2){
     
      playTracker=0
-     alert("You won Dude congs 🎉🎉🎉🎊")
+     alert("player one won 🎉🎉🎉 1️⃣1️⃣")
      window.location.reload()
     }
     else if(totalResults < totalResults2){
     
      playTracker=0
-     alert("You lost bro try again later 🙇🙇🙇‍♂️")
+     alert("Player two won 🎉🎉🎉2️⃣2️⃣")
      window.location.reload()
     }
     else{
@@ -85,17 +85,3 @@ function rolling2() {
     
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
