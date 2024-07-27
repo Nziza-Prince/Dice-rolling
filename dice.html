@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Singleplayer Dice Game</title>
     <link rel="stylesheet" href="dice.css">
 </head>
-
 <body>
     <div class="game">
-         <div class="container1">
+        <div class="container1">
             <h1>Player One</h1>
             <label for="diceNumber"># Dice number</label>
-            <input type="number"  min="1" max="6" id="diceNumber" autofocus>
+            <input type="number" min="1" max="6" id="diceNumber" autofocus>
             <button id="btn" onclick="rolling()">Roll Dice</button>
             <div id="rollResults"></div>
             <div id="resultImages"></div>
@@ -22,16 +20,12 @@
         </div>
         <div class="container2">
             <h1>Computer</h1>
-            <!-- <label for="diceNumber2"># Dice number</label>
-            <input type="number" value="1" min="1" max="6" id="diceNumber2"> -->
-            <!-- <button id="btn2" onclick="rolling2()">Roll Dice</button> -->
             <div id="rollResults2"></div>
             <div id="resultImages2"></div>
             <p id="results2"></p>
         </div>
     </div>
-
+    <a href="./index.html" class="back-home">Back to Home</a>
     <script src="dice.js"></script>
 </body>
-
 </html>
